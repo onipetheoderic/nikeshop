@@ -1,0 +1,1020 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* nikeshopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* nikeshopTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* nikeshopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* nikeshopTests.m */; };
+		5C14D396B6334032BB11F22C /* AdobeClean-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97F0BD69F67948E8860A8D2B /* AdobeClean-Bold.ttf */; };
+		7A312B7100CE490781624A71 /* AdobeClean-BoldIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AE470B5A73D42568720A369 /* AdobeClean-BoldIt.ttf */; };
+		F63EFC2D9C4E495B99E11EBD /* AdobeClean-BoldSemiCn.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAAF601B73364207BD9D1C9B /* AdobeClean-BoldSemiCn.ttf */; };
+		821E8B33B8C447A29CD544CA /* AdobeClean-BoldSemiCnIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EEA759616854EC98815B70C /* AdobeClean-BoldSemiCnIt.ttf */; };
+		7D203898FCB44CD88684A8BE /* AdobeClean-It.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C2B89DF969E49A3B77357BD /* AdobeClean-It.ttf */; };
+		B6F679C60C1845C8BF663D93 /* AdobeClean-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B16451F91B846E0B2833880 /* AdobeClean-Light.ttf */; };
+		8048700293204BC8B6CB4A1E /* AdobeClean-LightIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D352A1863853455A9A4DCECA /* AdobeClean-LightIt.ttf */; };
+		2C0794B9F19F4910A7B9FB7D /* AdobeClean-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9154979267D4434AEBF0DA5 /* AdobeClean-Regular.ttf */; };
+		D7CE70BC2C1B49C2A0CE8A34 /* AdobeClean-SemiCn.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3663DC6261B4FDABC615D58 /* AdobeClean-SemiCn.ttf */; };
+		F428438F94DB4229ADD99323 /* AdobeClean-SemiCnIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 555C937FCB114F05A6468D62 /* AdobeClean-SemiCnIt.ttf */; };
+		9993F1E58DE5493E8F3D9FB6 /* ArchivoBlack-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C689FCD835FD4DF7B599E160 /* ArchivoBlack-Regular.ttf */; };
+		06C92CABE68A476E8B7F0F81 /* ArchivoNarrow-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27D06737CBF2404E9602B767 /* ArchivoNarrow-Bold.ttf */; };
+		0E4DC7D6995342B7A0629644 /* ArchivoNarrow-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE835D5FCEC745DABADF524B /* ArchivoNarrow-BoldItalic.ttf */; };
+		F0CCDC1A10034C1A8C011497 /* ArchivoNarrow-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0400849D3234377BA57BE7B /* ArchivoNarrow-Italic.ttf */; };
+		5A149B2336FB4899B459700C /* ArchivoNarrow-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 698FD177A7CF4163893C19A9 /* ArchivoNarrow-Regular.ttf */; };
+		8EE65F32E0E442009A38C570 /* Audiowide-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94F7F4A5AD90432B827C0694 /* Audiowide-Regular.ttf */; };
+		DAF94977BD1A45DAAE8BC2AC /* Candara.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9085557EBEF04BD78BBA9AC5 /* Candara.ttf */; };
+		B8216C53C617447D8EA14B64 /* FasterOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 472424F2A51441D185EF7C92 /* FasterOne-Regular.ttf */; };
+		F831C878298748D2947E3612 /* JosefinSans-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BB0CE74C1364A9DBCD9A15F /* JosefinSans-Italic-VariableFont_wght.ttf */; };
+		22F8E907D19847F8A36A2F76 /* JosefinSans-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC591A83BC1E430D9E24FEA3 /* JosefinSans-VariableFont_wght.ttf */; };
+		5D6412623D8C452280F9AE11 /* Karla-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED5E36CEFBDE4D7B820A1044 /* Karla-Bold.ttf */; };
+		A8AB53585CC44007B0CDBE7A /* Karla-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0EF3AC74131A4CBA925BD4E5 /* Karla-Italic.ttf */; };
+		92CC04408D6B40A186B7D5A3 /* Karla-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 165375AA47B845FD9A4E04BC /* Karla-Regular.ttf */; };
+		068D70EFDCA94218B7E3BE55 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDA2DC7E6AFF489ABA356712 /* Montserrat-Bold.ttf */; };
+		0F765BFF38DE49919647AF1E /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04C8634591074920A32E4B2D /* Montserrat-Regular.ttf */; };
+		EEBD998ADE6B4CBCB78FF3F6 /* Muli-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EED91C3F78F41639F17E72B /* Muli-Italic.ttf */; };
+		9C74CFA156A0405FB0D92500 /* Muli-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A42ACE42BB64F4B96DB5631 /* Muli-Light.ttf */; };
+		970343BCC1EF4BCE815242DE /* Muli-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC9C2080EACF49DCBAC97CCC /* Muli-LightItalic.ttf */; };
+		3A42B9A976044564AC99F1D7 /* Muli-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70D1970EB5F54B888ADB3495 /* Muli-Regular.ttf */; };
+		A948DD1170404300ABE0FD10 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E682D8B75B64FE2A21387E1 /* Nunito-Bold.ttf */; };
+		66C8F054F89C494393B69299 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BEE584079164791BB3268A3 /* Nunito-Light.ttf */; };
+		24D142D2D2394AF8B8DEFF47 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C87EC5012894A1486AE2626 /* Nunito-Regular.ttf */; };
+		86FB36D2BDFF42888821B09B /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E56E880C86B4F33B83B4F4B /* Pacifico-Regular.ttf */; };
+		9C9FB41F9B0D427CB0435341 /* Varela-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58476F8B14434605ACCE9E4B /* Varela-Regular.ttf */; };
+		DDFD093C3494469AB940DBCB /* VarelaRound-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C68794E4781A4F55B7017D25 /* VarelaRound-Regular.ttf */; };
+		BAD1E058C5DB41A2B34B19AD /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20D136B1234F4FE988EA9C7A /* AntDesign.ttf */; };
+		3F249307313F423486C88B7C /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20FB1F90E74F4C22A6FBB0A6 /* Entypo.ttf */; };
+		4CA96487E4B64FAD9793B774 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16AEBB5B6AEA4B8AB2293DB9 /* EvilIcons.ttf */; };
+		3AF48E3444574CB7B02939EC /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2665752728C34AB1AD3DC0B3 /* Feather.ttf */; };
+		60EBDA13AD784111BD31332C /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15F2E065218B48D1B22416EC /* FontAwesome.ttf */; };
+		9F1A221C3AE445C8B8FD90CF /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39AB9C786DBD4EC7B0916C0E /* FontAwesome5_Brands.ttf */; };
+		0C3C321B2CE84C4BBB595C57 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBE677EDF05A41A68EDE48C0 /* FontAwesome5_Regular.ttf */; };
+		C006275AFE8B4944B6B86882 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C9C7C2573E34BD8B5A43128 /* FontAwesome5_Solid.ttf */; };
+		4BA5C24397C5404E85DC1AF3 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD0265C49B534A0195201252 /* Fontisto.ttf */; };
+		BA3C236281044DD8AC619A33 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A0CF18772DE4AE5BD7F668B /* Foundation.ttf */; };
+		1D8BB13FB1DA43549A3BAF4A /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C0A60D3DEB34AA1BF63A584 /* Ionicons.ttf */; };
+		83896F7D448C4B938CD871E6 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ECBE57F916A4F46850E01AB /* MaterialCommunityIcons.ttf */; };
+		CBF65E5089304B06BB2F6F95 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C004164C58984D9D84CAB19B /* MaterialIcons.ttf */; };
+		D5D89CAB3DED4B2287C00C04 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EAE0F57F40D34B1FAC22D0CF /* Octicons.ttf */; };
+		FB75026F6CE64D52AAFAC118 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 937E24F14FE24B5B8375672B /* SimpleLineIcons.ttf */; };
+		EBB92F9E50324C2685CB9BFA /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DB512D594AE4B10BE3CA548 /* Zocial.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = nikeshop;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "nikeshop-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* nikeshopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nikeshopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* nikeshopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nikeshopTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* nikeshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nikeshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = nikeshop/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = nikeshop/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = nikeshop/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = nikeshop/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = nikeshop/main.m; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* nikeshop-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nikeshop-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* nikeshop-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nikeshop-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		97F0BD69F67948E8860A8D2B /* AdobeClean-Bold.ttf */ = {isa = PBXFileReference; name = "AdobeClean-Bold.ttf"; path = "../assets/fonts/AdobeClean-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5AE470B5A73D42568720A369 /* AdobeClean-BoldIt.ttf */ = {isa = PBXFileReference; name = "AdobeClean-BoldIt.ttf"; path = "../assets/fonts/AdobeClean-BoldIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CAAF601B73364207BD9D1C9B /* AdobeClean-BoldSemiCn.ttf */ = {isa = PBXFileReference; name = "AdobeClean-BoldSemiCn.ttf"; path = "../assets/fonts/AdobeClean-BoldSemiCn.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4EEA759616854EC98815B70C /* AdobeClean-BoldSemiCnIt.ttf */ = {isa = PBXFileReference; name = "AdobeClean-BoldSemiCnIt.ttf"; path = "../assets/fonts/AdobeClean-BoldSemiCnIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6C2B89DF969E49A3B77357BD /* AdobeClean-It.ttf */ = {isa = PBXFileReference; name = "AdobeClean-It.ttf"; path = "../assets/fonts/AdobeClean-It.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3B16451F91B846E0B2833880 /* AdobeClean-Light.ttf */ = {isa = PBXFileReference; name = "AdobeClean-Light.ttf"; path = "../assets/fonts/AdobeClean-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D352A1863853455A9A4DCECA /* AdobeClean-LightIt.ttf */ = {isa = PBXFileReference; name = "AdobeClean-LightIt.ttf"; path = "../assets/fonts/AdobeClean-LightIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B9154979267D4434AEBF0DA5 /* AdobeClean-Regular.ttf */ = {isa = PBXFileReference; name = "AdobeClean-Regular.ttf"; path = "../assets/fonts/AdobeClean-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C3663DC6261B4FDABC615D58 /* AdobeClean-SemiCn.ttf */ = {isa = PBXFileReference; name = "AdobeClean-SemiCn.ttf"; path = "../assets/fonts/AdobeClean-SemiCn.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		555C937FCB114F05A6468D62 /* AdobeClean-SemiCnIt.ttf */ = {isa = PBXFileReference; name = "AdobeClean-SemiCnIt.ttf"; path = "../assets/fonts/AdobeClean-SemiCnIt.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C689FCD835FD4DF7B599E160 /* ArchivoBlack-Regular.ttf */ = {isa = PBXFileReference; name = "ArchivoBlack-Regular.ttf"; path = "../assets/fonts/ArchivoBlack-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		27D06737CBF2404E9602B767 /* ArchivoNarrow-Bold.ttf */ = {isa = PBXFileReference; name = "ArchivoNarrow-Bold.ttf"; path = "../assets/fonts/ArchivoNarrow-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DE835D5FCEC745DABADF524B /* ArchivoNarrow-BoldItalic.ttf */ = {isa = PBXFileReference; name = "ArchivoNarrow-BoldItalic.ttf"; path = "../assets/fonts/ArchivoNarrow-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C0400849D3234377BA57BE7B /* ArchivoNarrow-Italic.ttf */ = {isa = PBXFileReference; name = "ArchivoNarrow-Italic.ttf"; path = "../assets/fonts/ArchivoNarrow-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		698FD177A7CF4163893C19A9 /* ArchivoNarrow-Regular.ttf */ = {isa = PBXFileReference; name = "ArchivoNarrow-Regular.ttf"; path = "../assets/fonts/ArchivoNarrow-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		94F7F4A5AD90432B827C0694 /* Audiowide-Regular.ttf */ = {isa = PBXFileReference; name = "Audiowide-Regular.ttf"; path = "../assets/fonts/Audiowide-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9085557EBEF04BD78BBA9AC5 /* Candara.ttf */ = {isa = PBXFileReference; name = "Candara.ttf"; path = "../assets/fonts/Candara.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		472424F2A51441D185EF7C92 /* FasterOne-Regular.ttf */ = {isa = PBXFileReference; name = "FasterOne-Regular.ttf"; path = "../assets/fonts/FasterOne-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1BB0CE74C1364A9DBCD9A15F /* JosefinSans-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "JosefinSans-Italic-VariableFont_wght.ttf"; path = "../assets/fonts/JosefinSans-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FC591A83BC1E430D9E24FEA3 /* JosefinSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "JosefinSans-VariableFont_wght.ttf"; path = "../assets/fonts/JosefinSans-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ED5E36CEFBDE4D7B820A1044 /* Karla-Bold.ttf */ = {isa = PBXFileReference; name = "Karla-Bold.ttf"; path = "../assets/fonts/Karla-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0EF3AC74131A4CBA925BD4E5 /* Karla-Italic.ttf */ = {isa = PBXFileReference; name = "Karla-Italic.ttf"; path = "../assets/fonts/Karla-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		165375AA47B845FD9A4E04BC /* Karla-Regular.ttf */ = {isa = PBXFileReference; name = "Karla-Regular.ttf"; path = "../assets/fonts/Karla-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FDA2DC7E6AFF489ABA356712 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; name = "Montserrat-Bold.ttf"; path = "../assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		04C8634591074920A32E4B2D /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; name = "Montserrat-Regular.ttf"; path = "../assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5EED91C3F78F41639F17E72B /* Muli-Italic.ttf */ = {isa = PBXFileReference; name = "Muli-Italic.ttf"; path = "../assets/fonts/Muli-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8A42ACE42BB64F4B96DB5631 /* Muli-Light.ttf */ = {isa = PBXFileReference; name = "Muli-Light.ttf"; path = "../assets/fonts/Muli-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BC9C2080EACF49DCBAC97CCC /* Muli-LightItalic.ttf */ = {isa = PBXFileReference; name = "Muli-LightItalic.ttf"; path = "../assets/fonts/Muli-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		70D1970EB5F54B888ADB3495 /* Muli-Regular.ttf */ = {isa = PBXFileReference; name = "Muli-Regular.ttf"; path = "../assets/fonts/Muli-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3E682D8B75B64FE2A21387E1 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; name = "Nunito-Bold.ttf"; path = "../assets/fonts/Nunito-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1BEE584079164791BB3268A3 /* Nunito-Light.ttf */ = {isa = PBXFileReference; name = "Nunito-Light.ttf"; path = "../assets/fonts/Nunito-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0C87EC5012894A1486AE2626 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; name = "Nunito-Regular.ttf"; path = "../assets/fonts/Nunito-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2E56E880C86B4F33B83B4F4B /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; name = "Pacifico-Regular.ttf"; path = "../assets/fonts/Pacifico-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		58476F8B14434605ACCE9E4B /* Varela-Regular.ttf */ = {isa = PBXFileReference; name = "Varela-Regular.ttf"; path = "../assets/fonts/Varela-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C68794E4781A4F55B7017D25 /* VarelaRound-Regular.ttf */ = {isa = PBXFileReference; name = "VarelaRound-Regular.ttf"; path = "../assets/fonts/VarelaRound-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		20D136B1234F4FE988EA9C7A /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		20FB1F90E74F4C22A6FBB0A6 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		16AEBB5B6AEA4B8AB2293DB9 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2665752728C34AB1AD3DC0B3 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		15F2E065218B48D1B22416EC /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		39AB9C786DBD4EC7B0916C0E /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FBE677EDF05A41A68EDE48C0 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1C9C7C2573E34BD8B5A43128 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BD0265C49B534A0195201252 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0A0CF18772DE4AE5BD7F668B /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8C0A60D3DEB34AA1BF63A584 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1ECBE57F916A4F46850E01AB /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C004164C58984D9D84CAB19B /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EAE0F57F40D34B1FAC22D0CF /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		937E24F14FE24B5B8375672B /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4DB512D594AE4B10BE3CA548 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* nikeshopTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* nikeshopTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = nikeshopTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* nikeshop */ = {
+			isa = PBXGroup;
+			children = (
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = nikeshop;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* nikeshop */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* nikeshopTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				CE7CB531F3154046A17761D7 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* nikeshop.app */,
+				00E356EE1AD99517003FC87E /* nikeshopTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* nikeshop-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* nikeshop-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE7CB531F3154046A17761D7 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				97F0BD69F67948E8860A8D2B /* AdobeClean-Bold.ttf */,
+				5AE470B5A73D42568720A369 /* AdobeClean-BoldIt.ttf */,
+				CAAF601B73364207BD9D1C9B /* AdobeClean-BoldSemiCn.ttf */,
+				4EEA759616854EC98815B70C /* AdobeClean-BoldSemiCnIt.ttf */,
+				6C2B89DF969E49A3B77357BD /* AdobeClean-It.ttf */,
+				3B16451F91B846E0B2833880 /* AdobeClean-Light.ttf */,
+				D352A1863853455A9A4DCECA /* AdobeClean-LightIt.ttf */,
+				B9154979267D4434AEBF0DA5 /* AdobeClean-Regular.ttf */,
+				C3663DC6261B4FDABC615D58 /* AdobeClean-SemiCn.ttf */,
+				555C937FCB114F05A6468D62 /* AdobeClean-SemiCnIt.ttf */,
+				C689FCD835FD4DF7B599E160 /* ArchivoBlack-Regular.ttf */,
+				27D06737CBF2404E9602B767 /* ArchivoNarrow-Bold.ttf */,
+				DE835D5FCEC745DABADF524B /* ArchivoNarrow-BoldItalic.ttf */,
+				C0400849D3234377BA57BE7B /* ArchivoNarrow-Italic.ttf */,
+				698FD177A7CF4163893C19A9 /* ArchivoNarrow-Regular.ttf */,
+				94F7F4A5AD90432B827C0694 /* Audiowide-Regular.ttf */,
+				9085557EBEF04BD78BBA9AC5 /* Candara.ttf */,
+				472424F2A51441D185EF7C92 /* FasterOne-Regular.ttf */,
+				1BB0CE74C1364A9DBCD9A15F /* JosefinSans-Italic-VariableFont_wght.ttf */,
+				FC591A83BC1E430D9E24FEA3 /* JosefinSans-VariableFont_wght.ttf */,
+				ED5E36CEFBDE4D7B820A1044 /* Karla-Bold.ttf */,
+				0EF3AC74131A4CBA925BD4E5 /* Karla-Italic.ttf */,
+				165375AA47B845FD9A4E04BC /* Karla-Regular.ttf */,
+				FDA2DC7E6AFF489ABA356712 /* Montserrat-Bold.ttf */,
+				04C8634591074920A32E4B2D /* Montserrat-Regular.ttf */,
+				5EED91C3F78F41639F17E72B /* Muli-Italic.ttf */,
+				8A42ACE42BB64F4B96DB5631 /* Muli-Light.ttf */,
+				BC9C2080EACF49DCBAC97CCC /* Muli-LightItalic.ttf */,
+				70D1970EB5F54B888ADB3495 /* Muli-Regular.ttf */,
+				3E682D8B75B64FE2A21387E1 /* Nunito-Bold.ttf */,
+				1BEE584079164791BB3268A3 /* Nunito-Light.ttf */,
+				0C87EC5012894A1486AE2626 /* Nunito-Regular.ttf */,
+				2E56E880C86B4F33B83B4F4B /* Pacifico-Regular.ttf */,
+				58476F8B14434605ACCE9E4B /* Varela-Regular.ttf */,
+				C68794E4781A4F55B7017D25 /* VarelaRound-Regular.ttf */,
+				20D136B1234F4FE988EA9C7A /* AntDesign.ttf */,
+				20FB1F90E74F4C22A6FBB0A6 /* Entypo.ttf */,
+				16AEBB5B6AEA4B8AB2293DB9 /* EvilIcons.ttf */,
+				2665752728C34AB1AD3DC0B3 /* Feather.ttf */,
+				15F2E065218B48D1B22416EC /* FontAwesome.ttf */,
+				39AB9C786DBD4EC7B0916C0E /* FontAwesome5_Brands.ttf */,
+				FBE677EDF05A41A68EDE48C0 /* FontAwesome5_Regular.ttf */,
+				1C9C7C2573E34BD8B5A43128 /* FontAwesome5_Solid.ttf */,
+				BD0265C49B534A0195201252 /* Fontisto.ttf */,
+				0A0CF18772DE4AE5BD7F668B /* Foundation.ttf */,
+				8C0A60D3DEB34AA1BF63A584 /* Ionicons.ttf */,
+				1ECBE57F916A4F46850E01AB /* MaterialCommunityIcons.ttf */,
+				C004164C58984D9D84CAB19B /* MaterialIcons.ttf */,
+				EAE0F57F40D34B1FAC22D0CF /* Octicons.ttf */,
+				937E24F14FE24B5B8375672B /* SimpleLineIcons.ttf */,
+				4DB512D594AE4B10BE3CA548 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* nikeshopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "nikeshopTests" */;
+			buildPhases = (
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = nikeshopTests;
+			productName = nikeshopTests;
+			productReference = 00E356EE1AD99517003FC87E /* nikeshopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* nikeshop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "nikeshop" */;
+			buildPhases = (
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nikeshop;
+			productName = nikeshop;
+			productReference = 13B07F961A680F5B00A75B9A /* nikeshop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* nikeshop-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "nikeshop-tvOS" */;
+			buildPhases = (
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nikeshop-tvOS";
+			productName = "nikeshop-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* nikeshop-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* nikeshop-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "nikeshop-tvOSTests" */;
+			buildPhases = (
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "nikeshop-tvOSTests";
+			productName = "nikeshop-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* nikeshop-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "nikeshop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* nikeshop */,
+				00E356ED1AD99517003FC87E /* nikeshopTests */,
+				2D02E47A1E0B4A5D006451C7 /* nikeshop-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* nikeshop-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				5C14D396B6334032BB11F22C /* AdobeClean-Bold.ttf in Resources */,
+				7A312B7100CE490781624A71 /* AdobeClean-BoldIt.ttf in Resources */,
+				F63EFC2D9C4E495B99E11EBD /* AdobeClean-BoldSemiCn.ttf in Resources */,
+				821E8B33B8C447A29CD544CA /* AdobeClean-BoldSemiCnIt.ttf in Resources */,
+				7D203898FCB44CD88684A8BE /* AdobeClean-It.ttf in Resources */,
+				B6F679C60C1845C8BF663D93 /* AdobeClean-Light.ttf in Resources */,
+				8048700293204BC8B6CB4A1E /* AdobeClean-LightIt.ttf in Resources */,
+				2C0794B9F19F4910A7B9FB7D /* AdobeClean-Regular.ttf in Resources */,
+				D7CE70BC2C1B49C2A0CE8A34 /* AdobeClean-SemiCn.ttf in Resources */,
+				F428438F94DB4229ADD99323 /* AdobeClean-SemiCnIt.ttf in Resources */,
+				9993F1E58DE5493E8F3D9FB6 /* ArchivoBlack-Regular.ttf in Resources */,
+				06C92CABE68A476E8B7F0F81 /* ArchivoNarrow-Bold.ttf in Resources */,
+				0E4DC7D6995342B7A0629644 /* ArchivoNarrow-BoldItalic.ttf in Resources */,
+				F0CCDC1A10034C1A8C011497 /* ArchivoNarrow-Italic.ttf in Resources */,
+				5A149B2336FB4899B459700C /* ArchivoNarrow-Regular.ttf in Resources */,
+				8EE65F32E0E442009A38C570 /* Audiowide-Regular.ttf in Resources */,
+				DAF94977BD1A45DAAE8BC2AC /* Candara.ttf in Resources */,
+				B8216C53C617447D8EA14B64 /* FasterOne-Regular.ttf in Resources */,
+				F831C878298748D2947E3612 /* JosefinSans-Italic-VariableFont_wght.ttf in Resources */,
+				22F8E907D19847F8A36A2F76 /* JosefinSans-VariableFont_wght.ttf in Resources */,
+				5D6412623D8C452280F9AE11 /* Karla-Bold.ttf in Resources */,
+				A8AB53585CC44007B0CDBE7A /* Karla-Italic.ttf in Resources */,
+				92CC04408D6B40A186B7D5A3 /* Karla-Regular.ttf in Resources */,
+				068D70EFDCA94218B7E3BE55 /* Montserrat-Bold.ttf in Resources */,
+				0F765BFF38DE49919647AF1E /* Montserrat-Regular.ttf in Resources */,
+				EEBD998ADE6B4CBCB78FF3F6 /* Muli-Italic.ttf in Resources */,
+				9C74CFA156A0405FB0D92500 /* Muli-Light.ttf in Resources */,
+				970343BCC1EF4BCE815242DE /* Muli-LightItalic.ttf in Resources */,
+				3A42B9A976044564AC99F1D7 /* Muli-Regular.ttf in Resources */,
+				A948DD1170404300ABE0FD10 /* Nunito-Bold.ttf in Resources */,
+				66C8F054F89C494393B69299 /* Nunito-Light.ttf in Resources */,
+				24D142D2D2394AF8B8DEFF47 /* Nunito-Regular.ttf in Resources */,
+				86FB36D2BDFF42888821B09B /* Pacifico-Regular.ttf in Resources */,
+				9C9FB41F9B0D427CB0435341 /* Varela-Regular.ttf in Resources */,
+				DDFD093C3494469AB940DBCB /* VarelaRound-Regular.ttf in Resources */,
+				BAD1E058C5DB41A2B34B19AD /* AntDesign.ttf in Resources */,
+				3F249307313F423486C88B7C /* Entypo.ttf in Resources */,
+				4CA96487E4B64FAD9793B774 /* EvilIcons.ttf in Resources */,
+				3AF48E3444574CB7B02939EC /* Feather.ttf in Resources */,
+				60EBDA13AD784111BD31332C /* FontAwesome.ttf in Resources */,
+				9F1A221C3AE445C8B8FD90CF /* FontAwesome5_Brands.ttf in Resources */,
+				0C3C321B2CE84C4BBB595C57 /* FontAwesome5_Regular.ttf in Resources */,
+				C006275AFE8B4944B6B86882 /* FontAwesome5_Solid.ttf in Resources */,
+				4BA5C24397C5404E85DC1AF3 /* Fontisto.ttf in Resources */,
+				BA3C236281044DD8AC619A33 /* Foundation.ttf in Resources */,
+				1D8BB13FB1DA43549A3BAF4A /* Ionicons.ttf in Resources */,
+				83896F7D448C4B938CD871E6 /* MaterialCommunityIcons.ttf in Resources */,
+				CBF65E5089304B06BB2F6F95 /* MaterialIcons.ttf in Resources */,
+				D5D89CAB3DED4B2287C00C04 /* Octicons.ttf in Resources */,
+				FB75026F6CE64D52AAFAC118 /* SimpleLineIcons.ttf in Resources */,
+				EBB92F9E50324C2685CB9BFA /* Zocial.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* nikeshopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* nikeshopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* nikeshop */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* nikeshop-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = nikeshop;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = nikeshopTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nikeshop.app/nikeshop";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = nikeshopTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nikeshop.app/nikeshop";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FB_SONARKIT_ENABLED=1",
+				);
+				INFOPLIST_FILE = nikeshop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = nikeshop;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = nikeshop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = nikeshop;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "nikeshop-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.nikeshop-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "nikeshop-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.nikeshop-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "nikeshop-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.nikeshop-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nikeshop-tvOS.app/nikeshop-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "nikeshop-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.nikeshop-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nikeshop-tvOS.app/nikeshop-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "nikeshopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "nikeshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "nikeshop-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "nikeshop-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "nikeshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

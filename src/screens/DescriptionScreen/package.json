@@ -1,0 +1,8 @@
+{
+    "name": "The Description Screen",
+    "version": "0.0.1",
+    "private": true,
+    "description": "This Screen Doesnt get anything from the store, we only get data from the dummy db, to serve as the prove of concept",
+    "author": "Theoderic Onipe",
+    "main": "DescriptionScreen.js"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Normal Shoe Card",
+    "version": "0.0.1",
+    "private": true,
+    "description": "This is a Normal Sheo Card that doesnt involve ovalaping of the Iaages",
+    "author": "Theoderic Onipe",
+    "main": "normalSheoCard.js"
+}

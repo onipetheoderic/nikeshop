@@ -1,0 +1,8 @@
+{
+    "name": "The Mystical Color Circle",
+    "version": "0.0.1",
+    "private": true,
+    "description": "The Component has its own internal state, onClick it changes to mark symbol",
+    "author": "Theoderic Onipe",
+    "main": "colorCircle.js"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "The Beautiful Cart Card",
+    "version": "0.0.1",
+    "private": true,
+    "description": "This is the card component for each item in the cart",
+    "author": "Theoderic Onipe",
+    "main": "cartCard.js"
+}

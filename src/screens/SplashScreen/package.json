@@ -1,0 +1,9 @@
+{
+    "name": "The Splash Screen",
+    "version": "0.0.1",
+    "private": true,
+    "description": "This Screen gets the selected Items from the Context Store",
+    "author": "Theoderic Onipe",
+    "contributors": ["Theoderic Onipe"],
+    "main": "SplashScreen.js"
+}

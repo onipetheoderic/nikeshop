@@ -1,0 +1,8 @@
+{
+    "name": "The Ovarlapping Horizontal Card",
+    "version": "0.0.1",
+    "private": true,
+    "description": "The Overalapping Card to be Placed on an Horizontal Playground",
+    "author": "Theoderic Onipe",
+    "main": "overlappingShoeCard.js"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Size Indicator",
+    "version": "0.0.1",
+    "private": true,
+    "description": "The Horizontal Overlapping Card is to make is to accept an array prop of sizes",
+    "author": "Theoderic Onipe",
+    "main": "sizeIndicator.js"
+}

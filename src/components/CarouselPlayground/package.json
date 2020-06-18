@@ -1,0 +1,8 @@
+{
+    "name": "The Mystical Carousel Slider Playground",
+    "version": "0.0.1",
+    "private": true,
+    "description": "This component is for the sliding of Carousel components",
+    "author": "Theoderic Onipe",
+    "main": "carouselPlayground.js"
+}

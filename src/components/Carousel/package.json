@@ -1,0 +1,8 @@
+{
+    "name": "The Mystical Carousel Slider",
+    "version": "0.0.1",
+    "private": true,
+    "description": "This component is for the sliding of local images",
+    "author": "Theoderic Onipe",
+    "main": "carousel.js"
+}
